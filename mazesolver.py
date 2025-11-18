@@ -1,4 +1,7 @@
 #!/home/brod/scripts/venv/bin/python
+# The line above reflects my python installation!
+# Make sure you modify it so it will work properly 
+# on your environment!!!
 
 from collections import deque
 import heapq

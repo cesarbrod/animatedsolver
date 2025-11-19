@@ -1,5 +1,5 @@
 # animatedsolver
-A python program using search techniques to solve a maze
+A python program, created with the help of claude.ai, using search techniques to solve a maze
 
 ## Search Algorithms:
 
@@ -61,3 +61,17 @@ Greedy: Notice how it rushes toward the target
 Greedy: Notice how it rushes toward the target
 
 Try it with different delay values to see the algorithms in action!
+
+## Run it
+
+Make sure the first #! line of your script corresponds to your python environment.
+
+Make the *.py programs in your folder executable:
+
+chmod a+x *.py
+
+Run with
+
+./animatedsolver.py
+
+Provide the name of your maze file.

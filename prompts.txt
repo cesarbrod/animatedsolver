@@ -1,0 +1,24 @@
+The programs in this folder have been created with the help of claude.ai.
+Here are the prompts I used and some comments.
+
+Prompt 1
+
+You will write a path solving problem in python, proposing search techniques to be tested when going from point A to point B in a maze. The maze will be a text file representing a bidimensional maze where empty cells (blank spaces) are portions of a possible path and X cells are walls. When I execute the program you must first ask for the txt file containing the representation of the maze.
+
+The result did not consider where my python binary was located, so here is the next prompt.
+
+Prompt 2
+
+The program works fine after I added the first line telling it where the python executable was. From now on, add this first line on the program in our next iteractions:
+
+#!/home/brod/scripts/venv/bin/python
+
+And now I want you to illustrate the paths being followed for all of the algorithms proposed.
+
+Prompt 3 - adding statistics
+
+When comparing all algorithms, show statistics on a table containing the following columns: Algorithm, Path Length, Nodes Explored, Time (s). Also, show the same statistics even if I choose to run an specific algorithm.
+
+Prompt 4 - adding animation
+
+Perfect, would you now provide an animation of the algorithms being executed so a user can actually see the steps being performed by the algorithm in a nice visual way? For every animation, provide the name of the algorithm being executed at the top of the animation. Still, provide the same statistics as you are already doing.

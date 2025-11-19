@@ -53,12 +53,13 @@ You can see both the animated exploration AND the final comparison
 
 The animation really helps visualize how different algorithms explore the maze:
 
-BFS: You'll see a wave expanding uniformly
-DFS: Watch it dive deep into one path before backtracking
-A*: See it intelligently move toward the goal
-Greedy: Notice how it rushes toward the target
+**BFS**: You'll see a wave expanding uniformly
 
-Greedy: Notice how it rushes toward the target
+**DFS**: Watch it dive deep into one path before backtracking
+
+**A(star)**: See it intelligently move toward the goal
+
+**Greedy**: Notice how it rushes toward the target
 
 Try it with different delay values to see the algorithms in action!
 
